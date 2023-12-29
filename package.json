@@ -4,7 +4,8 @@
   "description": "Repository with examples of Either in Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "v1": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/v1/math.ts"
   },
   "repository": {
     "type": "git",
