@@ -1,5 +1,5 @@
 import { Either, left, right } from "./either";
-import { DivisionByZeroException, InvalidArgumentException, MathException } from "./math-exceptions";
+import { DivisionByZeroException, InvalidArgumentException, MathException } from "../math-exceptions";
 
 class Math {
     static divide(firstValue: number, secondValue: number): Either<MathException, number> {
