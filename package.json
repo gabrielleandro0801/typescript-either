@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "v1": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/v1/math.ts"
+    "v1": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/v1/math.ts",
+    "v2": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/v2/math.ts"
   },
   "repository": {
     "type": "git",
